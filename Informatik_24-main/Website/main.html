@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Dough or Die</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('photos/OIP.jfif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #ueberschrift {
+            margin-top: 50px;
+            font-size: 3em;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        #pizzagif {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            height: 100px;
+            width: 100px;
+        }
+
+        #anmeldung {
+            margin-top: 30px;
+        }
+
+        #anmeldung a {
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        #buttonar {
+            width: 150px;
+            height: 50px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1em;
+            box-shadow: 2px 2px 5px #000;
+        }
+
+        #buttonar:hover {
+            background-color: #ff4500;
+        }
+
+        #speisekarte {
+            margin: 30px auto;
+            display: block;
+            width: 300px;
+            height: auto;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        table {
+            width: 100%;
+            border-spacing: 0;
+            margin-top: 20px;
+        }
+
+        td {
+            vertical-align: top;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 id="ueberschrift">Pizzeria Dough or Die</h1>
+    <img id="pizzagif" src="photos/pizza.gif" alt="Pizza GIF">
+
+    <table>
+        <tr>
+            <td>
+                <div id="anmeldung">
+                    <a href="Anmeldung.php">
+                        <button id="buttonar">Anmeldung</button>
+                    </a>
+                    <a href="Registrierung.php">
+                        <button id="buttonar">Registrierung</button>
+                    </a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img id="speisekarte" src="photos/speisekarte.jfif" alt="Speisekarte">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
